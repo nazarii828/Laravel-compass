@@ -32,6 +32,10 @@ class Authenticator extends Manager
         return new SanctumAuth($config);
     }
 
+    public function createJWToken()
+    {
+        
+    }
     /**
      * Get the default Authenticator driver name.
      *
